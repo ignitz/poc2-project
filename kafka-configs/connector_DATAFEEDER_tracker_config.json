@@ -1,0 +1,16 @@
+{
+  "name": "DATAFEEDER_tracker",
+  "connector.class": "io.debezium.connector.postgresql.PostgresConnector",
+  "tasks.max": "1",
+  "slot.name": "debezium",
+  "plugin.name": "pgoutput",
+  "database.server.name": "DATAFEEDER_tracker",
+  "database.dbname": "tracker",
+  "database.hostname": "172.31.4.170",
+  "database.port": "5432",
+  "database.user": "postgres",
+  "database.password": "zyPm2h5HZNDGgc0T",
+  "table.whitelist": "public.posts, public.users",
+  "tombstones.on.delete": "false",
+  "snapshot.mode": "initial"
+}

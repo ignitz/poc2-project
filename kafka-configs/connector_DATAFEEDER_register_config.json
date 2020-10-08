@@ -1,0 +1,15 @@
+{
+  "name": "DATAFEEDER_register",
+  "connector.class": "io.debezium.connector.sqlserver.SqlServerConnector",
+  "tasks.max": "1",
+  "database.server.name": "DATAFEEDER_register",
+  "database.dbname": "register",
+  "database.hostname": "172.31.4.170",
+  "database.port": "1433",
+  "database.user": "sa",
+  "database.password": "zyPm2h5HZNDGgc0T",
+  "snapshot.mode": "initial",
+  "database.history.kafka.bootstrap.servers": "broker:29092",
+  "database.history.kafka.topic": "datasprints.DATAFEEDER_register",
+  "table.whitelist": "dbo.addresses, dbo.companies, dbo.persons, dbo.persons_companies"
+}
