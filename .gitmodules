@@ -1,0 +1,12 @@
+[submodule "datafeeder"]
+	path = datafeeder
+	url = https://github.com/ignitz/datafeeder
+	branch = master
+[submodule "infra"]
+	path = infra
+	url = https://github.com/ignitz/infra
+	branch = master
+[submodule "kafka-stack"]
+	path = kafka-stack
+	url = https://github.com/ignitz/kafka-stack
+	branch = master
