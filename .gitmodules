@@ -10,3 +10,6 @@
 	path = kafka-stack
 	url = https://github.com/ignitz/kafka-stack
 	branch = master
+[submodule "hudi-processing"]
+	path = hudi-processing
+	url = https://github.com/ignitz/hudi-processing
