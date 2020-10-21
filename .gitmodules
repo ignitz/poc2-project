@@ -12,4 +12,7 @@
 	branch = master
 [submodule "hudi-processing"]
 	path = hudi-processing
-	url = https://github.com/ignitz/hudi-processing
+    url = https://github.com/ignitz/hudi-processing
+[submodule "deltalake-processing"]
+	path = deltalake-processing
+	url = https://github.com/ignitz/deltalake-processing
